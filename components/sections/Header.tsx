@@ -21,7 +21,7 @@ const Header = () => {
   
   return(
     <>
-      <header className={`w-screen px-10 flex
+      <header className={`w-screen px-4 sm:px-10 flex
       ${openNav ? "fixed h-screen" : "h-30 justify-between"}
       `}>
         <div className={`h-full flex items-center justify-between

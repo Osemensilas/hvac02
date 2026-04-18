@@ -4,11 +4,11 @@ import ContactBtn from '@/components/ui/ContactBtn';
 const HomeHero = () => {
   return (
     <>
-      <section className="relative h-max w-screen py-40 px-10 flex items-center justify-start">
+      <section className="relative h-max w-screen py-40 px-4 sm:px-10 flex items-center justify-start">
         <div className="absolute h-full w-full">
           <Image src="/" fill className="object-cover" alt="hero image" />
         </div>
-        <div className="h-max w-2/5 relative z-10">
+        <div className="h-max w-full sm:w-3/5 relative z-10">
           <h1 className="text-header text-3xl mb-10">Fast & Reliable AC Repair & Installation</h1>
           <p className="">We provide professional air conditioning services for homes and businesses. Quick response and affordable pricing.</p>
           <div className="h-max w-full mt-5">
