@@ -35,7 +35,7 @@ const Header = () => {
               <Link href="/" className={`flex flex flex-col gap-1
               ${pathName === "/" ? "text-primary" : ""}
               `}>Home
-              <span className={`
+              <span className={`w-full h-[2px]
               ${pathName === "/" ? "bg-primary" : ""}
               `}></span>
               </Link>
@@ -44,7 +44,7 @@ const Header = () => {
               <Link href="/services" className={`flex flex flex-col gap-1
               ${pathName === "/services" ? "text-primary" : ""}
               `}>Services
-              <span className={`
+              <span className={`w-full h-[2px]
               ${pathName === "/services" ? "bg-primary" : ""}
               `}></span>
               </Link>
@@ -53,7 +53,7 @@ const Header = () => {
               <Link href="/about-me" className={`flex flex flex-col gap-1
               ${pathName === "/about-me" ? "text-primary" : ""}
               `}>About Me
-              <span className={`
+              <span className={`w-full h-[2px]
               ${pathName === "/about-me" ? "bg-primary" : ""}
               `}></span>
               </Link>
@@ -62,7 +62,7 @@ const Header = () => {
               <Link href="/contact-me" className={`flex flex flex-col gap-1
               ${pathName === "/contact-me" ? "text-primary" : ""}
               `}>Home
-              <span className={`
+              <span className={`w-full h-[2px]
               ${pathName === "/contact-me" ? "text-primary" : ""}
               `}></span>
               </Link>
