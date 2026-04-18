@@ -29,7 +29,7 @@ const Header = () => {
       ${openNav ? "fixed h-screen" : "h-30 items-center justify-between px-4 sm:px-10 z-20"}
       `}>
         <div className={`h-full flex
-        ${openNav ? "w-4/5 bg-accent flex-col z-20 justify-star gap-4 p-4" : "w-full items-center justify-between"}
+        ${openNav ? "relative w-4/5 bg-accent flex-col z-20 justify-star gap-4 p-4" : "w-full items-center justify-between"}
         `}>
           <div className="h-max w-max">
             <h3 className="text-header text-xl sm:text-3xl font-bold">JOSH<span className="text-primary">LEGEND</span></h3>
@@ -75,7 +75,7 @@ const Header = () => {
             </li>
           </ul>
           <div className={`h-max w-max flex items-center gap-3
-          ${openNav ? "" : "hidden"}
+          ${openNav ? "hidden" : "hidden"}
           `}>
             <p className="text-text text-base">+2349 054 060 454</p>
             <ContactBtn />
