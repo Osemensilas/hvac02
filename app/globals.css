@@ -5,6 +5,7 @@
   --primary: #C62828;
   --text: #212121;
   --secondary: #F9A825;
+  --header: #333333;
 }
 
 @theme {
@@ -12,6 +13,7 @@
   --color-background: var(--background);
   --color-text: var(--text);
   --color-secondary: var(--secondary);
+  --color-header: var(--header);
 }
 
 html,body{
