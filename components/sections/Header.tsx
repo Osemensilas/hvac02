@@ -23,12 +23,10 @@ const Header = () => {
       <header className={`w-screen px-10
       ${openNav ? "fixed h-screen flex" : "h-30"}
       `}>
-        <div className={`h-full
+        <div className={`h-full flex items-center justify-between
         ${openNav ? "w-4/5" : "w-full"}
         `}>
-          <div className={`h-full
-        ${openNav ? "w-4/5" : "w-full"}
-        `}>
+          <div className="h-max w-max">
             <h3 className="text-header text-3xl">JOSH<span className="text-primary">LEGEND</span></h3>
           </div>
           <ul className="h-max w-max flex items-center gap-4">
