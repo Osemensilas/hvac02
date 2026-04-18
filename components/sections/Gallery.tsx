@@ -3,8 +3,8 @@ const Gallery = () => {
         <>
         <section id="gallery" className="w-screen h-max bg-offWhite py-16 px-10">
             <header className="mb-10">
-                <h2 className="text-4xl text-accent mb-2">Gallery</h2>
-                <p className="text-base text-accent">Discover the beauty and elegance of The Palm Haven Hotel.</p>
+                <h2 className="text-3xl text-header mb-2">Gallery</h2>
+                <p className="text-base text-text">Discover the beauty and elegance of The Palm Haven Hotel.</p>
             </header>
             <div className="w-full h-max">
                 <div className="w-full h-max flex">
