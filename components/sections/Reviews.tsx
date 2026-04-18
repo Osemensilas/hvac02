@@ -3,8 +3,8 @@ const Reviews = () => {
         <>
         <section id="reviews" className="w-screen bg-white py-16 px-10">
             <header className="mb-10 text-center">
-                <h2 className="text-4xl text-offBlack mb-2">What Our Guests Say</h2>
-                <p className="text-base text-offBlack">Hear from guests who have experienced The Palm Haven Hotel.</p>
+                <h2 className="text-3xl text-offBlack mb-2 font-bold">Hear from my clients</h2>
+                <p className="text-base text-offBlack">Real experiences from our valued customers across Nigeria</p>
             </header>
             <div className="flex flex-wrap gap-8 justify-center">
                 <div className="bg-offWhite rounded-lg shadow-md p-8 max-w-md w-full">
