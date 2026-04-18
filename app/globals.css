@@ -5,7 +5,9 @@
   --primary: #C62828;
   --text: #212121;
   --secondary: #F9A825;
-  --header: #333333;
+  --header: #02081f;
+  --grey: #c0c0c0;
+  --accent: #ffffff;
 }
 
 @theme {
@@ -14,6 +16,8 @@
   --color-text: var(--text);
   --color-secondary: var(--secondary);
   --color-header: var(--header);
+  --color-grey: var(--grey);
+  --color-accent: var(--accent);
 }
 
 html,body{

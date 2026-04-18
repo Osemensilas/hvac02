@@ -9,7 +9,7 @@ const WhySection = () => {
           <div className="h-max w-[200px] bg-background rounded shadow">
             <div className="h-max w-full mb-5">
               <div className="relative h-20 w-20">
-                <Image src="/" fill className="object-cover" />
+                <Image src="/" fill className="object-cover" alt="why image" />
               </div>
             </div>
             <p className="text-text text-base text-center">Fast response time</p>
@@ -17,7 +17,7 @@ const WhySection = () => {
           <div className="h-max w-[200px] bg-background rounded shadow">
             <div className="h-max w-full mb-5">
               <div className="relative h-20 w-20">
-                <Image src="/" fill className="object-cover" />
+                <Image src="/" fill className="object-cover" alt="why image" />
               </div>
             </div>
             <p className="text-text text-base text-center">Affordable pricing</p>
@@ -25,7 +25,7 @@ const WhySection = () => {
           <div className="h-max w-[200px] bg-background rounded shadow">
             <div className="h-max w-full mb-5">
               <div className="relative h-20 w-20">
-                <Image src="/" fill className="object-cover" />
+                <Image src="/" fill className="object-cover" alt="why image" />
               </div>
             </div>
             <p className="text-text text-base text-center">Experienced technician</p>
@@ -33,7 +33,7 @@ const WhySection = () => {
           <div className="h-max w-[200px] bg-background rounded shadow">
             <div className="h-max w-full mb-5">
               <div className="relative h-20 w-20">
-                <Image src="/" fill className="object-cover" />
+                <Image src="/" fill className="object-cover" alt="why image" />
               </div>
             </div>
             <p className="text-text text-base text-center">Reliable service</p>
