@@ -21,7 +21,7 @@ const ContactBtn = () => {
       <section onClick={removeForm} className={`bg-header/500 h-screen w-screen fixed items-center justify-center top-0 left-0
       ${showForm ? "flex" : "hidden"}
       `}>
-        <form className="relative z-10 h-max w-[450px] rounded bg-accent px-10">
+        <form onClick={(e) => {e.stopPropagation(); e.preventDefault()}} className="relative z-10 h-max w-[300px] sm:w-[450px] rounded bg-accent px-10">
           <header className="py-10 w-full h-max border-b border-grey">
             <h2 className="text-center text-3xl font-bold">Message Me</h2>
           </header>
@@ -40,7 +40,7 @@ const ContactBtn = () => {
             </div>
             <div className="h-max w-full mb-3">
               <label htmlFor="message" className="text-grey">Message: </label>
-              <textarea name="message" id="message" className="max-h-40 min-h-40 max-w-full min-w-full" ></textarea>
+              <textarea name="message" id="message" className="max-h-40 min-h-40 max-w-full min-w-full border border-grey rounded p-5" ></textarea>
             </div>
           </div>
           <div className="h-max w-full py-10 border-t border-grey">
