@@ -17,7 +17,7 @@ const Footer = () => {
             `}>
             <div className="h-max w-full flex sm:flex-row flex-col items-start justify-between border-b bordergrey pb-3 mb-3">
                 <div className="h-max w-full sm:w-max flex flex-col items-center gap-3">
-                    <h2 className="text-3xl font-bold text-header">Pet<span className="text-primary">City</span></h2>
+                    <h2 className="text-3xl font-bold text-header">JOSH<span className="text-primary">LEGEND</span></h2>
                     <div className="h-max w-max">
                         <ul className="hmax w-max flex items-center gap-4">
                             <li className="h-max w-max">
