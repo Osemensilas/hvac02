@@ -19,13 +19,17 @@ const Header = () => {
     }
   }
   
+  const hideNav = () => {
+    setOpenNav(false);
+  }
+  
   return(
     <>
       <header className={`w-screen sm:px-10 flex
       ${openNav ? "fixed h-screen" : "h-30 items-center justify-between px-4"}
       `}>
-        <div className={`h-full flex items-center justify-between
-        ${openNav ? "w-4/5 bg-accent flex-col" : "w-full"}
+        <div className={`h-full flex
+        ${openNav ? "w-4/5 bg-accent flex-col z-20 justify-star gap-4" : "w-full items-center justify-between"}
         `}>
           <div className="h-max w-max">
             <h3 className="text-header text-xl sm:text-3xl font-bold">JOSH<span className="text-primary">LEGEND</span></h3>
@@ -77,8 +81,8 @@ const Header = () => {
             <ContactBtn />
           </div>
         </div>
-        <div className={`
-        ${openNav ? "w-1/5" : "hidden w-0"}
+        <div onClick={hideNav} className={`
+        ${openNav ? "w-1/5 bg-foreground/50" : "hidden w-0"}
         `}></div>
         <div onClick={seeNav} className="ham-container block sm:hidden">
           <div className="hamburger"></div>
