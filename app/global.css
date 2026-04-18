@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+:root {
+  --background: #FFF8E1;
+  --primary: #C62828;
+  --text: #212121;
+  --secondary: #F9A825;
+}
+
+@theme {
+  --color-primary: var(--primary);
+  --color-background: var(--background);
+  --color-text: var(--text);
+  --color-secondary: var(--secondary);
+}
+
+html,body{
+  background: var(--background);
+  height: max-content;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+.ham-container{
+  position: relative;
+  height: 40px;
+  width: 40px;
+}
+
+.hamburger{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 2px;
+  width: 100%;
+  background: var(--primary);
+}
+
+.hamburger::after{
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background: var(--primary);
+}
+
+.hamburger::before{
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background: var(--primary);
+}
