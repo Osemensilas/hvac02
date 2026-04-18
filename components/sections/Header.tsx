@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
+import ContactBtn from "@/components/ui/ContactBtn";
 
 const Header = () => {
   
@@ -41,7 +42,7 @@ const Header = () => {
             </li>
             <li className="h-max w-max">
               <Link href="/services" className={`
-              ${pathName === "/services" ? "bg-primary" : ""}
+              ${pathName === "/services" ? "text-primary" : ""}
               `}>Services
               <span className={`
               ${pathName === "/services" ? "bg-primary" : ""}
@@ -50,7 +51,7 @@ const Header = () => {
             </li>
             <li className="h-max w-max">
               <Link href="/about-me" className={`
-              ${pathName === "/about-me" ? "bg-primary" : ""}
+              ${pathName === "/about-me" ? "text-primary" : ""}
               `}>About Me
               <span className={`
               ${pathName === "/about-me" ? "bg-primary" : ""}
@@ -59,17 +60,17 @@ const Header = () => {
             </li>
             <li className="h-max w-max">
               <Link href="/contact-me" className={`
-              ${pathName === "/contact-me" ? "bg-primary" : ""}
+              ${pathName === "/contact-me" ? "text-primary" : ""}
               `}>Home
               <span className={`
-              ${pathName === "/contact-me" ? "bg-primary" : ""}
+              ${pathName === "/contact-me" ? "text-primary" : ""}
               `}></span>
               </Link>
             </li>
           </ul>
           <div className="h-max w-max flex items-center gap-3">
             <p className="text-text text-base">+2349 054 060 454</p>
-            <a href="https://wa.me/9054060454" className="py-2 px-4 bg-primary rounded text-background">Whatsapp Me</a>
+            <ContactBtn />
           </div>
         </div>
         <div className="block sm:hidden sm:w-0 w-1/5"></div>
