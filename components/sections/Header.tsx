@@ -26,7 +26,7 @@ const Header = () => {
   return(
     <>
       <header className={`w-screen flex
-      ${openNav ? "fixed h-screen" : "h-30 items-center justify-between px-4 sm:px-10"}
+      ${openNav ? "fixed h-screen" : "h-30 items-center justify-between px-4 sm:px-10 z-20"}
       `}>
         <div className={`h-full flex
         ${openNav ? "w-4/5 bg-accent flex-col z-20 justify-star gap-4" : "w-full items-center justify-between"}
@@ -35,7 +35,7 @@ const Header = () => {
             <h3 className="text-header text-xl sm:text-3xl font-bold">JOSH<span className="text-primary">LEGEND</span></h3>
           </div>
           <ul className={`h-max w-max flex items-center gap-4
-          ${openNav ? "" : "hidden sm:block"}
+          ${openNav ? "flex-col" : "hidden sm:block"}
           `}>
             <li className="h-max w-max">
               <Link href="/" className={`flex flex flex-col gap-1
@@ -84,7 +84,9 @@ const Header = () => {
         <div onClick={hideNav} className={`
         ${openNav ? "w-1/5 bg-foreground/50" : "hidden w-0"}
         `}></div>
-        <div onClick={seeNav} className="ham-container block sm:hidden">
+        <div onClick={seeNav} className={`ham-container block sm:hidden
+          ${openNav ? "hidden" : ""}
+        `}>
           <div className="hamburger"></div>
         </div>
       </header>
