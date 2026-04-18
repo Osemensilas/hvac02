@@ -32,8 +32,8 @@ const Header = () => {
           </div>
           <ul className="h-max w-max flex items-center gap-4">
             <li className="h-max w-max">
-              <Link href="/" className={`
-              ${pathName === "/" ? "bg-primary" : ""}
+              <Link href="/" className={`flex flex flex-col gap-1
+              ${pathName === "/" ? "text-primary" : ""}
               `}>Home
               <span className={`
               ${pathName === "/" ? "bg-primary" : ""}
@@ -41,7 +41,7 @@ const Header = () => {
               </Link>
             </li>
             <li className="h-max w-max">
-              <Link href="/services" className={`
+              <Link href="/services" className={`flex flex flex-col gap-1
               ${pathName === "/services" ? "text-primary" : ""}
               `}>Services
               <span className={`
@@ -50,7 +50,7 @@ const Header = () => {
               </Link>
             </li>
             <li className="h-max w-max">
-              <Link href="/about-me" className={`
+              <Link href="/about-me" className={`flex flex flex-col gap-1
               ${pathName === "/about-me" ? "text-primary" : ""}
               `}>About Me
               <span className={`
@@ -59,7 +59,7 @@ const Header = () => {
               </Link>
             </li>
             <li className="h-max w-max">
-              <Link href="/contact-me" className={`
+              <Link href="/contact-me" className={`flex flex flex-col gap-1
               ${pathName === "/contact-me" ? "text-primary" : ""}
               `}>Home
               <span className={`
