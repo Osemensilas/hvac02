@@ -29,13 +29,13 @@ const Header = () => {
       ${openNav ? "fixed h-screen" : "h-30 items-center justify-between px-4 sm:px-10 z-20"}
       `}>
         <div className={`h-full flex
-        ${openNav ? "w-4/5 bg-accent flex-col z-20 justify-star gap-4" : "w-full items-center justify-between"}
+        ${openNav ? "w-4/5 bg-accent flex-col z-20 justify-star gap-4 p-4" : "w-full items-center justify-between"}
         `}>
           <div className="h-max w-max">
             <h3 className="text-header text-xl sm:text-3xl font-bold">JOSH<span className="text-primary">LEGEND</span></h3>
           </div>
-          <ul className={`h-max w-max flex items-center gap-4
-          ${openNav ? "flex-col" : "hidden sm:block"}
+          <ul className={`h-max w-max flex gap-4
+          ${openNav ? "flex-col justify-start items-start" : "hidden sm:block items-center"}
           `}>
             <li className="h-max w-max">
               <Link href="/" className={`flex flex flex-col gap-1
