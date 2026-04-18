@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 const WhySection = () => {
   return(
     <>
@@ -18,7 +20,7 @@ const WhySection = () => {
                 <Image src="/" fill className="object-cover" />
               </div>
             </div>
-            <p className="text-text text-base text-center">Fast response time</p>
+            <p className="text-text text-base text-center">Affordable pricing</p>
           </div>
           <div className="h-max w-[200px] bg-background rounded shadow">
             <div className="h-max w-full mb-5">
@@ -26,7 +28,7 @@ const WhySection = () => {
                 <Image src="/" fill className="object-cover" />
               </div>
             </div>
-            <p className="text-text text-base text-center">Fast response time</p>
+            <p className="text-text text-base text-center">Experienced technician</p>
           </div>
           <div className="h-max w-[200px] bg-background rounded shadow">
             <div className="h-max w-full mb-5">
@@ -34,7 +36,7 @@ const WhySection = () => {
                 <Image src="/" fill className="object-cover" />
               </div>
             </div>
-            <p className="text-text text-base text-center">Fast response time</p>
+            <p className="text-text text-base text-center">Reliable service</p>
           </div>
         </div>
       </section>
