@@ -21,8 +21,8 @@ const Header = () => {
   
   return(
     <>
-      <header className={`w-screen px-10
-      ${openNav ? "fixed h-screen flex" : "h-30"}
+      <header className={`w-screen px-10 flex
+      ${openNav ? "fixed h-screen" : "h-30 justify-between"}
       `}>
         <div className={`h-full flex items-center justify-between
         ${openNav ? "w-4/5" : "w-full"}
@@ -30,7 +30,9 @@ const Header = () => {
           <div className="h-max w-max">
             <h3 className="text-header text-3xl">JOSH<span className="text-primary">LEGEND</span></h3>
           </div>
-          <ul className="h-max w-max flex items-center gap-4">
+          <ul className={`h-max w-max flex items-center gap-4
+          ${openNav ? "" : "hidden sm:block"}
+          `}>
             <li className="h-max w-max">
               <Link href="/" className={`flex flex flex-col gap-1
               ${pathName === "/" ? "text-primary" : ""}
