@@ -22,25 +22,25 @@ const HomeHero = () => {
                 <div className="relative h-20 w-20">
                     <Image src={"/images/hero2.jpg"} alt="Services Header" fill className="object-cover object-center rounded" />
                 </div>
-                <h4 className="text-background text-xl font-bold">Five-star Rated</h4>
+                <h4 className="text-background text-sm sm:text-xl font-bold">Five-star Rated</h4>
             </div>
             <div className="h-max w-max flex flex-col items-center justify-center gap-3">
                 <div className="relative h-20 w-20">
                     <Image src={"/images/hero2.jpg"} alt="Services Header" fill className="object-cover object-center rounded" />
                 </div>
-                <h4 className="text-background text-xl font-bold">Licensed & Insured</h4>
+                <h4 className="text-background text-sm sm:text-xl font-bold">Licensed & Insured</h4>
             </div>
             <div className="h-max w-max flex flex-col items-center justify-center gap-3">
                 <div className="relative h-20 w-20">
                     <Image src={"/images/hero2.jpg"} alt="Services Header" fill className="object-cover object-center rounded" />
                 </div>
-                <h4 className="text-background text-xl font-bold">24/7 Emergency Support</h4>
+                <h4 className="text-background text-sm sm:text-xl font-bold">24/7 Emergency Support</h4>
             </div>
             <div className="h-max w-max flex flex-col items-center justify-center gap-3">
                 <div className="relative h-20 w-20">
                     <Image src={"/images/hero2.jpg"} alt="Services Header" fill className="object-cover object-center rounded" />
                 </div>
-                <h4 className="text-background text-xl font-bold">10+ Years Experience</h4>
+                <h4 className="text-background text-sm sm:text-xl font-bold">10+ Years Experience</h4>
             </div>
         </div>
     </section>
