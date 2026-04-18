@@ -22,13 +22,13 @@ const Header = () => {
   return(
     <>
       <header className={`w-screen px-4 sm:px-10 flex
-      ${openNav ? "fixed h-screen" : "h-30 justify-between"}
+      ${openNav ? "fixed h-screen" : "h-30 items-center justify-between"}
       `}>
         <div className={`h-full flex items-center justify-between
-        ${openNav ? "w-4/5" : "w-full"}
+        ${openNav ? "w-4/5 bg-accent flex-col" : "w-full"}
         `}>
           <div className="h-max w-max">
-            <h3 className="text-header text-3xl">JOSH<span className="text-primary">LEGEND</span></h3>
+            <h3 className="text-header text-xl sm:text-3xl font-bold">JOSH<span className="text-primary">LEGEND</span></h3>
           </div>
           <ul className={`h-max w-max flex items-center gap-4
           ${openNav ? "" : "hidden sm:block"}
