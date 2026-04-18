@@ -19,3 +19,5 @@ const HomeHero = () => {
     </>
   );
 }
+
+export default HomeHero;
