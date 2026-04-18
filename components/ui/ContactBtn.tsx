@@ -18,10 +18,10 @@ const ContactBtn = () => {
   return (
     <>
       <button onClick={btnClicked} className="px-4 py-2 rounded bg-primary text-base text-background cursor-pointer">Contact Me</button>
-      <section onClick={removeForm} className={`bg-header/500 h-screen w-screen fixed items-center justify-center top-0 left-0
+      <section onClick={removeForm} className={`bg-header/500 h-screen w-screen fixed items-center justify-center top-0 left-0 bg-foreground/50
       ${showForm ? "flex" : "hidden"}
       `}>
-        <form onClick={(e) => {e.stopPropagation(); e.preventDefault()}} className="relative z-10 h-max w-[300px] sm:w-[450px] rounded bg-accent px-10">
+        <form onClick={(e) => {e.stopPropagation(); e.preventDefault()}} className="relative z-10 h-max w-[300px] sm:w-[450px] rounded bg-accent px-4 sm:px-10">
           <header className="py-10 w-full h-max border-b border-grey">
             <h2 className="text-center text-3xl font-bold">Message Me</h2>
           </header>
