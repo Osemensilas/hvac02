@@ -70,7 +70,9 @@ const Header = () => {
               </Link>
             </li>
           </ul>
-          <div className="h-max w-max flex items-center gap-3">
+          <div className={`h-max w-max flex items-center gap-3
+          ${openNav ? "" : "hidden"}
+          `}>
             <p className="text-text text-base">+2349 054 060 454</p>
             <ContactBtn />
           </div>
