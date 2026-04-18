@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import ContactBtn from 'ContactBtn';
+import ContactBtn from '@/components/ui/ContactBtn';
 
 const HomeHero = () => {
   return (
