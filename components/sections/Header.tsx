@@ -21,8 +21,8 @@ const Header = () => {
   
   return(
     <>
-      <header className={`w-screen px-4 sm:px-10 flex
-      ${openNav ? "fixed h-screen" : "h-30 items-center justify-between"}
+      <header className={`w-screen sm:px-10 flex
+      ${openNav ? "fixed h-screen" : "h-30 items-center justify-between px-4"}
       `}>
         <div className={`h-full flex items-center justify-between
         ${openNav ? "w-4/5 bg-accent flex-col" : "w-full"}
@@ -77,7 +77,9 @@ const Header = () => {
             <ContactBtn />
           </div>
         </div>
-        <div className="block sm:hidden sm:w-0 w-1/5"></div>
+        <div className={`
+        ${openNav ? "w-1/5" : "hidden w-0"}
+        `}></div>
         <div onClick={seeNav} className="ham-container block sm:hidden">
           <div className="hamburger"></div>
         </div>
