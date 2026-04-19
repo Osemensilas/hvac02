@@ -9,6 +9,11 @@ import ScheduleBtn from "@/components/ui/ScheduleBtn";
 const Page = () => {
   return ( 
     <>
+    <head>
+      <title>JoshLegend AC Services - Your Trusted HVAC Experts in Lagos Island</title>
+      <meta name="description" content="JoshLegend AC Services is your go-to HVAC company in Lagos Island, offering fast, reliable, and affordable air conditioning repair, installation, and maintenance services. Contact us today for expert solutions to keep you cool and comfortable." />
+      <meta name="keywords" content="AC repair Lagos Island, AC installation Lagos Island, AC maintenance Lagos Island, HVAC services Lagos Island, air conditioning repair Lagos Island, air conditioning installation Lagos Island, air conditioning maintenance Lagos Island" />
+    </head>
     <HomeHero />
     <Services />
     <Gallery />
