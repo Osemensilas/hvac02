@@ -38,7 +38,7 @@ const Footer = () => {
             </div>
             <div className="h-max w-full">
                 <p className="text-center text-header text-sm">
-                    &copy; {new Date().getFullYear()} Pet City. All rights reserved.
+                    &copy; {new Date().getFullYear()} Josh Legend. All rights reserved.
                 </p>
                 <div className="w-full h-max flex items-center justify-center mt-5 text-sm text-header gap-3">
                     <Link href={"/terms-of-use"}>Terms of Use</Link>
