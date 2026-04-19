@@ -83,7 +83,7 @@ const Header = () => {
           <div className={`h-max w-max items-center gap-3
           ${openNav ? "hidden" : "hidden sm:flex"}
           `}>
-            <p className="text-text text-base">+2349 054 060 454</p>
+            <p className="text-text text-base">+234 704 7880 486</p>
             <ScheduleBtn />
           </div>
         </div>
