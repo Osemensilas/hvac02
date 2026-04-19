@@ -4,10 +4,12 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 import ScheduleBtn from "../ui/ScheduleBtn";
+import { useRouter } from "next/navigation";
 
 const Header = () => {
   
   const pathName = usePathname();
+  const router = useRouter();
   
   const [openNav, setOpenNav] = useState(false);
   
@@ -22,6 +24,11 @@ const Header = () => {
   const hideNav = () => {
     setOpenNav(false);
   }
+
+  const gotoHomePage = () => {
+    setOpenNav(false);
+    router.push("/");
+  }
   
   return(
     <>
@@ -31,20 +38,19 @@ const Header = () => {
         <div className={`h-full flex
         ${openNav ? "relative w-4/5 bg-accent flex-col z-20 justify-star gap-4 p-4" : "w-full items-center justify-between"}
         `}>
-          <div className="h-max w-max">
-            <h3 className="text-header text-xl sm:text-3xl font-bold">JOSH<span className="text-primary">LEGEND</span></h3>
+          <div onClick={gotoHomePage} className="h-max w-max cursor-pointer">
+            <h3 className="text-header text-xl sm:text-3xl font-bold cursor-pointer">JOSH<span className="text-primary">LEGEND</span></h3>
           </div>
           <ul className={`h-max w-max flex gap-4
           ${openNav ? "flex-col justify-start items-start" : "hidden sm:flex items-center"}
           `}>
-            <li className="h-max w-max">
-              <Link href="/" className={`h-max w-max flex flex-col gap-1
-              ${pathName === "/" ? "text-primary" : ""}
-              `}>Home
-              <span className={`w-full h-0.2
-              ${pathName === "/" ? "bg-primary" : ""}
-              `}></span>
-              </Link>
+            <li className="h-max w-max flex flex-col gap-1">
+              <Link href={"/"} className={`text-base
+                  ${pathName === "/" ? "text-primary" : "text-header"}
+                  `}>Home</Link>
+              <span className={`h-0.5 w-full
+                  ${pathName === "/" ? "bg-primary" : ""}
+                  `}></span>
             </li>
             <li className="h-max w-max">
               <Link href="/services" className={`flex flex-col gap-1
