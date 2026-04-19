@@ -26,7 +26,7 @@ const Header = () => {
   return(
     <>
       <header className={`w-screen flex
-      ${openNav ? "fixed h-screen" : "h-30 items-center justify-between px-4 sm:px-10 z-20"}
+      ${openNav ? "fixed h-screen z-50" : "h-30 items-center justify-between px-4 sm:px-10 z-20"}
       `}>
         <div className={`h-full flex
         ${openNav ? "relative w-4/5 bg-accent flex-col z-20 justify-star gap-4 p-4" : "w-full items-center justify-between"}
@@ -35,47 +35,47 @@ const Header = () => {
             <h3 className="text-header text-xl sm:text-3xl font-bold">JOSH<span className="text-primary">LEGEND</span></h3>
           </div>
           <ul className={`h-max w-max flex gap-4
-          ${openNav ? "flex-col justify-start items-start" : "hidden sm:block items-center"}
+          ${openNav ? "flex-col justify-start items-start" : "hidden sm:flex items-center"}
           `}>
             <li className="h-max w-max">
-              <Link href="/" className={`flex flex flex-col gap-1
+              <Link href="/" className={`flex flex-col gap-1
               ${pathName === "/" ? "text-primary" : ""}
               `}>Home
-              <span className={`w-full h-[2px]
+              <span className={`w-full h-0.2
               ${pathName === "/" ? "bg-primary" : ""}
               `}></span>
               </Link>
             </li>
             <li className="h-max w-max">
-              <Link href="/services" className={`flex flex flex-col gap-1
+              <Link href="/services" className={`flex flex-col gap-1
               ${pathName === "/services" ? "text-primary" : ""}
               `}>Services
-              <span className={`w-full h-[2px]
+              <span className={`w-full h-0.5
               ${pathName === "/services" ? "bg-primary" : ""}
               `}></span>
               </Link>
             </li>
             <li className="h-max w-max">
-              <Link href="/about-me" className={`flex flex flex-col gap-1
+              <Link href="/about-me" className={`flex flex-col gap-1
               ${pathName === "/about-me" ? "text-primary" : ""}
               `}>About Me
-              <span className={`w-full h-[2px]
+              <span className={`w-full h-0.5
               ${pathName === "/about-me" ? "bg-primary" : ""}
               `}></span>
               </Link>
             </li>
             <li className="h-max w-max">
-              <Link href="/contact-me" className={`flex flex flex-col gap-1
+              <Link href="/contact-me" className={`flex flex-col gap-1
               ${pathName === "/contact-me" ? "text-primary" : ""}
-              `}>Home
-              <span className={`w-full h-[2px]
+              `}>Contact Me
+              <span className={`w-full h-0.5
               ${pathName === "/contact-me" ? "text-primary" : ""}
               `}></span>
               </Link>
             </li>
           </ul>
-          <div className={`h-max w-max flex items-center gap-3
-          ${openNav ? "hidden" : "hidden"}
+          <div className={`h-max w-max items-center gap-3
+          ${openNav ? "hidden" : "hidden sm:flex"}
           `}>
             <p className="text-text text-base">+2349 054 060 454</p>
             <ContactBtn />
