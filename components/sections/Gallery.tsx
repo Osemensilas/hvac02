@@ -11,27 +11,27 @@ const Gallery = () => {
             <div className="w-full h-max">
                 <div className="w-full h-max flex">
                     <div className="w-3/5 sm:h-150 h-75 relative">
-                        <Image src="/lobby.jpg" fill alt="Lobby" className="object-fill" />
+                        <Image src="/gallery5.jpg" fill alt="Lobby" className="object-fill" />
                     </div>
                     <div className="w-2/5 h-max flex flex-col">
-                        <div className="relatve w-full sm:h-75 h-37.5">
-                            <Image src="/suite.jpg" fill alt="Suite" className="object-cover" />
+                        <div className="relative w-full sm:h-75 h-37.5">
+                            <Image src="/gallery1.jpg" fill alt="Suite" className="object-cover" />
                         </div>
                         <div className="relative w-full sm:h-75 h-37.5">
-                            <Image src="/pool.jpg" fill alt="Pool" className="object-cover"/>
+                            <Image src="/gallery2.jpg" fill alt="Pool" className="object-cover"/>
                         </div>
                     </div>
                 </div>
                 <div className="w-full h-max hidden sm:flex flex-row-reverse ">
                     <div className="w-3/5 sm:h-150 h-75 relative">
-                        <Image src="/resturant.jpg" fill alt="Restaurant" className="object-cover" />
+                        <Image src="/gallery6.jpg" fill alt="Restaurant" className="object-cover" />
                     </div>
                     <div className="w-2/5 h-max flex flex-col">
-                        <div className="relatve w-full sm:h-75 h-37.5">
-                            <Image src="/suite.jpg" fill alt="Suite" className="object-cover" />
+                        <div className="relative w-full sm:h-75 h-37.5">
+                            <Image src="/gallery3.jpg" fill alt="Suite" className="object-cover" />
                         </div>
                         <div className="relative w-full sm:h-75 h-37.5">
-                            <Image src="/pool.jpg" fill alt="Pool" className="object-cover"/>
+                            <Image src="/gallery4.jpg" fill alt="Pool" className="object-cover"/>
                         </div>
                     </div>
                 </div>

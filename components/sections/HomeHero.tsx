@@ -16,30 +16,22 @@ const HomeHero = () => {
           </div>
         </div>
       </section>
-      <section className="h-max w-screen py-10 px-10 bg-foreground">
+      <section className="h-max w-screen py-10 px-10 bg-header">
         <div className="w-full h-max flex items-center justify-between flex-wrap gap-10">
             <div className="h-max w-max flex flex-col items-center justify-center gap-3">
-                <div className="relative h-20 w-20">
-                    <Image src={"/images/hero2.jpg"} alt="Services Header" fill className="object-cover object-center rounded" />
-                </div>
+                <i className="fas fa-star text-4xl text-accent"></i>
                 <h4 className="text-background text-sm sm:text-xl font-bold">Five-star Rated</h4>
             </div>
             <div className="h-max w-max flex flex-col items-center justify-center gap-3">
-                <div className="relative h-20 w-20">
-                    <Image src={"/images/hero2.jpg"} alt="Services Header" fill className="object-cover object-center rounded" />
-                </div>
+                <i className="fas fa-shield-alt text-4xl text-accent"></i>
                 <h4 className="text-background text-sm sm:text-xl font-bold">Licensed & Insured</h4>
             </div>
             <div className="h-max w-max flex flex-col items-center justify-center gap-3">
-                <div className="relative h-20 w-20">
-                    <Image src={"/images/hero2.jpg"} alt="Services Header" fill className="object-cover object-center rounded" />
-                </div>
+                <i className="fas fa-exclamation-triangle text-4xl text-accent"></i>
                 <h4 className="text-background text-sm sm:text-xl font-bold">24/7 Emergency Support</h4>
             </div>
             <div className="h-max w-max flex flex-col items-center justify-center gap-3">
-                <div className="relative h-20 w-20">
-                    <Image src={"/images/hero2.jpg"} alt="Services Header" fill className="object-cover object-center rounded" />
-                </div>
+                <i className="fas fa-award text-4xl text-accent"></i>
                 <h4 className="text-background text-sm sm:text-xl font-bold">10+ Years Experience</h4>
             </div>
         </div>
