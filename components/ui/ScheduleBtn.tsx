@@ -1,6 +1,5 @@
 'use client';
 
-import { em } from "framer-motion/client";
 import { useState } from "react";
 
 const ScheduleBtn = () => {
@@ -231,10 +230,10 @@ const ScheduleBtn = () => {
     return ( 
         <>
         <button type="button" onClick={btnClicked} className="py-2 px-4 rounded bg-primary cursor-pointer text-accent">Request Quote</button>
-        <section onClick={removeSchedule} className={`bg-foreground/50 h-screen w-screen fixed top-0 left-0 flex items-center justify-center z-50
+        <section onClick={removeSchedule} className={`bg-foreground/50 h-screen w-screen fixed top-0 left-0 flex items-center justify-center z-50 px-4 sm:px-0
             ${showSchedule ? "" : "hidden"}
             `}>
-            <form onClick={(e) => {e.stopPropagation(); e.preventDefault()}} className="form-des relative h-max w-125 z-10 bg-background rounded px-10">
+            <form onClick={(e) => {e.stopPropagation(); e.preventDefault()}} className="form-des relative h-max w-full sm:w-125 z-10 bg-background rounded px-10">
                 <input type="text" name="serviceType" value={formData.serviceType} onChange={handleChanged} hidden />
                 <input type="text" name="serviceRequest" value={formData.serviceRequest} onChange={handleChanged} hidden />
                 <input type="text" name="serviceDetailsOptions" value={formData.serviceDetailsOptions} onChange={handleChanged} hidden />
