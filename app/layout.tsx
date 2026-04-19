@@ -27,6 +27,7 @@ export default function RootLayout({
           crossOrigin="anonymous"
           referrerPolicy="no-referrer"
         />
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
       </head>
       <body className="min-h-full flex flex-col">
         <Header />
