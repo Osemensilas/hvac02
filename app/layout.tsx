@@ -31,6 +31,11 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col">
         <Header />
         {children}
+        <div className="h-max w-full fixed top-[85%] left-[90%]">
+          <a href="https://wa.me/2347047880486" title="whatsapp" target="_blank" rel="noopener noreferrer" className="bg-green-500 text-white p-3 rounded-full shadow-lg hover:bg-green-600 transition-colors duration-300">
+            <i className="fa-brands fa-whatsapp text-2xl"></i>
+          </a>
+        </div>
         <Footer />
         </body>
     </html>

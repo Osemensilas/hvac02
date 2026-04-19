@@ -38,7 +38,7 @@ const Header = () => {
           ${openNav ? "flex-col justify-start items-start" : "hidden sm:flex items-center"}
           `}>
             <li className="h-max w-max">
-              <Link href="/" className={`flex flex-col gap-1
+              <Link href="/" className={`h-max w-max flex flex-col gap-1
               ${pathName === "/" ? "text-primary" : ""}
               `}>Home
               <span className={`w-full h-0.2

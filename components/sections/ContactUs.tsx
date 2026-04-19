@@ -29,7 +29,7 @@ const ContactUs = () => {
                             <p className="text-gray-600">Mon - Sat: 8am - 6pm<br />Emergency services available</p>
                         </div>
                         <div className="mt-6 font-semibold text-red-600">
-                        🚨 Emergency AC Issue? Call or WhatsApp us now for instant response.
+                            <span><i className="fa fa-exclamation-triangle text-red-600"></i></span> Emergency AC Issue? Call or WhatsApp us now for instant response.
                         </div>
                     </div>
                     {/* RIGHT SIDE */}
