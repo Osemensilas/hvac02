@@ -8,8 +8,8 @@ const Reviews = () => {
             </header>
             <div className="flex flex-wrap gap-8 justify-center">
                 <div className="bg-offWhite rounded-lg shadow-md p-8 max-w-md w-full">
-                    <p className="text-lg text-gray-700 mb-4">
-                    “Absolutely wonderful stay! The staff were attentive and the rooms were spotless. I will definitely return.”
+                    <p className="text-base text-gray-700 mb-4">
+                    “They came through for me when my AC stopped working during the hot weather. Very fast response and professional service. Everything was fixed the same day. Highly recommended.”
                     </p>
                     <div className="flex items-center">
                         <span className="font-bold text-accent mr-2">— Sarah O.</span>
@@ -17,8 +17,8 @@ const Reviews = () => {
                     </div>
                 </div>
                 <div className="bg-offWhite rounded-lg shadow-md p-8 max-w-md w-full">
-                    <p className="text-lg text-gray-700 mb-4">
-                    “The Palm Haven Hotel exceeded my expectations. The pool and spa were highlights of my trip!”
+                    <p className="text-base text-gray-700 mb-4">
+                    ““I used them for AC installation in my apartment. The job was clean, affordable, and done exactly how I wanted it. I will definitely use them again for maintenance.”
                     </p>
                     <div className="flex items-center">
                         <span className="font-bold text-accent mr-2">— James K.</span>
@@ -26,8 +26,8 @@ const Reviews = () => {
                     </div>
                 </div>
                 <div className="bg-offWhite rounded-lg shadow-md p-8 max-w-md w-full">
-                    <p className="text-lg text-gray-700 mb-4">
-                    “A perfect blend of luxury and comfort. The food at the restaurant was delicious and the service was top-notch.”
+                    <p className="text-base text-gray-700 mb-4">
+                    “Very reliable team. They explained the problem clearly before fixing my AC and didn’t overcharge me. It’s hard to find honest technicians like this in Lagos.”
                     </p>
                     <div className="flex items-center">
                         <span className="font-bold text-accent mr-2">— Linda M.</span>

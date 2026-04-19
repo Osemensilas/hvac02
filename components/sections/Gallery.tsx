@@ -5,7 +5,7 @@ const Gallery = () => {
         <>
         <section id="gallery" className="w-screen h-max bg-offWhite py-16 px-10">
             <header className="mb-10">
-                <h2 className="text-3xl text-header mb-2">Gallery</h2>
+                <h2 className="text-3xl text-header mb-2 font-bold">Gallery</h2>
                 <p className="text-base text-text">See some of the work we have handled across Lagos state</p>
             </header>
             <div className="w-full h-max">

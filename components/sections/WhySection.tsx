@@ -1,42 +1,51 @@
-import Image from 'next/image';
-
 const WhySection = () => {
   return(
     <>
-      <section className="h-max w-full px-10 py-20">
-        <h2 className="text-text text-3xl font-bold text-center">Why Choose Us</h2>
-        <div className="h-max w-full mt-20 flex space-evenly">
-          <div className="h-max w-[200px] bg-background rounded shadow">
-            <div className="h-max w-full mb-5">
-              <div className="relative h-20 w-20">
-                <Image src="/" fill className="object-cover" alt="why image" />
-              </div>
+      <section className="py-16 px-6 bg-background">
+        <div className="max-w-6xl mx-auto text-center">
+          <h2 className="text-3xl font-bold mb-4">Why Choose Us</h2>
+          <p className="text-gray-600 mb-10">
+            Trusted AC experts serving Lagos Island with fast, reliable, and affordable solutions.
+          </p>
+
+          <div className="grid md:grid-cols-3 gap-8">
+            
+            <div>
+              <i className="fa fa-bolt text-3xl mb-3"></i>
+              <h3 className="font-semibold text-lg">Fast Response</h3>
+              <p className="text-gray-600 text-sm">Quick service across Lagos Island.</p>
             </div>
-            <p className="text-text text-base text-center">Fast response time</p>
-          </div>
-          <div className="h-max w-[200px] bg-background rounded shadow">
-            <div className="h-max w-full mb-5">
-              <div className="relative h-20 w-20">
-                <Image src="/" fill className="object-cover" alt="why image" />
-              </div>
+
+            <div>
+              <i className="fa fa-wrench text-3xl mb-3"></i>
+              <h3 className="font-semibold text-lg">Experienced Technicians</h3>
+              <p className="text-gray-600 text-sm">Skilled AC professionals.</p>
             </div>
-            <p className="text-text text-base text-center">Affordable pricing</p>
-          </div>
-          <div className="h-max w-[200px] bg-background rounded shadow">
-            <div className="h-max w-full mb-5">
-              <div className="relative h-20 w-20">
-                <Image src="/" fill className="object-cover" alt="why image" />
-              </div>
+
+            <div>
+              <i className="fa fa-money text-3xl mb-3"></i>
+              <h3 className="font-semibold text-lg">Affordable Pricing</h3>
+              <p className="text-gray-600 text-sm">No hidden costs.</p>
             </div>
-            <p className="text-text text-base text-center">Experienced technician</p>
-          </div>
-          <div className="h-max w-[200px] bg-background rounded shadow">
-            <div className="h-max w-full mb-5">
-              <div className="relative h-20 w-20">
-                <Image src="/" fill className="object-cover" alt="why image" />
-              </div>
+
+            <div>
+              <i className="fa fa-map-marker text-3xl mb-3"></i>
+              <h3 className="font-semibold text-lg">Lagos Island Based</h3>
+              <p className="text-gray-600 text-sm">We’re close to you.</p>
             </div>
-            <p className="text-text text-base text-center">Reliable service</p>
+
+            <div>
+              <i className="fa fa-cogs text-3xl mb-3"></i>
+              <h3 className="font-semibold text-lg">All-in-One Services</h3>
+              <p className="text-gray-600 text-sm">Repair, install & more.</p>
+            </div>
+
+            <div>
+              <i className="fa fa-star text-3xl mb-3"></i>
+              <h3 className="font-semibold text-lg">Customer Satisfaction</h3>
+              <p className="text-gray-600 text-sm">We deliver results.</p>
+            </div>
+
           </div>
         </div>
       </section>
