@@ -44,27 +44,27 @@ const HomeHero = () => {
             <div className="h-max w-wax flex">
               <div className="h-max w-6">
                 <div className="relative h-10 w-10">
-                  <Image src="/google.PNG" alt="google image" fill className="object-cover rounded-3xl" />
+                  <Image src="/google1.jpg" alt="google image" fill className="object-cover rounded-full" />
                 </div>
               </div>
               <div className="h-max w-6">
                 <div className="relative h-10 w-10">
-                  <Image src="/google.PNG" alt="google image" fill className="object-cover rounded-3xl" />
+                  <Image src="/google2.jpg" alt="google image" fill className="object-cover rounded-full" />
                 </div>
               </div>
               <div className="h-max w-6">
                 <div className="relative h-10 w-10">
-                  <Image src="/google.PNG" alt="google image" fill className="object-cover rounded-3xl" />
+                  <Image src="/google3.jpg" alt="google image" fill className="object-cover rounded-full" />
                 </div>
               </div>
               <div className="h-max w-6">
                 <div className="relative h-10 w-10">
-                  <Image src="/google.PNG" alt="google image" fill className="object-cover rounded-3xl" />
+                  <Image src="/google4.jpg" alt="google image" fill className="object-cover rounded-full" />
                 </div>
               </div>
               <div className="h-max w-6">
                 <div className="relative h-10 w-10">
-                  <Image src="/google.PNG" alt="google image" fill className="object-cover rounded-3xl" />
+                  <Image src="/google5.jpg" alt="google image" fill className="object-cover rounded-full" />
                 </div>
               </div>
             </div>
