@@ -69,7 +69,7 @@ const HomeHero = () => {
               </div>
             </div>
             <div className="relative h-10 w-10">
-              <Image src="/google.PNG" alt="google image" fill className="object-cover rounded-3xl" />
+              <Image src="/google.png" alt="google image" fill className="object-cover rounded-3xl" />
             </div>
             <div className="h-max w-max">
               <p className="text-sm text-text">Review best over 15k reviews</p>
