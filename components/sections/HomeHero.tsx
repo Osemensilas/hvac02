@@ -32,7 +32,7 @@ const HomeHero = () => {
           </div>
           <div className="h-max w-full">
             <div className="relative h-96 w-full rounded-3xl">
-              <Image src="/hero1.jpg" alt="Hero Image" fill className="object-cover rounded-3xl" />
+              <Image src="/hero2.jpg" alt="Hero Image" fill className="object-cover rounded-3xl" />
             </div>
           </div>
         </div>
