@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
-import ScheduleBtn from "../ui/ScheduleBtn";
+import ContactBtn from "../ui/ContactBtn";
 import { useRouter } from "next/navigation";
 
 const Header = () => {
@@ -84,7 +84,7 @@ const Header = () => {
           ${openNav ? "hidden" : "hidden sm:flex"}
           `}>
             <p className="text-text text-base">+234 704 7880 486</p>
-            <ScheduleBtn />
+            <ContactBtn />
           </div>
         </div>
         <div onClick={hideNav} className={`
