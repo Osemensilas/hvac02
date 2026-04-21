@@ -37,7 +37,7 @@ const HomeHero = () => {
           </div>
         </div>
         <div className="h-full w-full sm:w-[55%] justify-beteen flex flex-col gap-3 items-start">
-          <div className="relative h-[350px] sm:h-[1000px] w-full rounded-3xl hidden sm:block">
+          <div className="relative h-[350px] sm:h-[850px] w-full rounded-3xl hidden sm:block">
             <Image src="/hero1.jpg" alt="Hero Image" fill className="object-cover rounded-3xl" />
           </div>
           <div className="w-full h-max flex flex-col sm:flex-row items-center justify-between gap-3 p-3 bg-background rounded">
