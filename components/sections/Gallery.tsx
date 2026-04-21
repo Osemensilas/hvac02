@@ -23,7 +23,7 @@ const Gallery = () => {
     return ( 
         <>
         <section className="h-max sm:h-170 w-full px-4 sm:px-10 py-10">
-            <div className="h-full w-full flex flex-col sm:flex-row gap-5 bg-background p-10 rounded">
+            <div className="h-full w-full flex flex-col sm:flex-row gap-5 bg-background p-4 sm:p-10 rounded">
                 <div className="w-full sm:w-[30%] h-full flex flex-col gap-5">
                     <div className="h-max sm:h-[40%] w-full flex flex-col gap-3 items-start">
                         <h3 className="text-xl font-bold text-primary">OUR PROJECTS</h3>
