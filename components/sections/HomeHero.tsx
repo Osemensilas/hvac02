@@ -5,7 +5,7 @@ import ContactBtn from '../ui/ContactBtn';
 const HomeHero = () => {
   return (
     <>
-      <section className="h-[110vh] w-screen px-4 sm:px-10 py-10 flex flex-col sm:flex-col items-start gap-3">
+      <section className="h-[110vh] w-screen px-4 sm:px-10 py-10 flex flex-col sm:flex-row items-start gap-3">
         <div className="h-full w-full sm:w-[45%] flex flex-col gap-3 items-start">
           <div className="h-[45%] w-full flex flex-col justify-between items-start">
             <p className="text-base text-header font-bold">Perfect temperature always</p>
