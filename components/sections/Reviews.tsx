@@ -51,7 +51,7 @@ const Reviews = () => {
                                 <span className="text-yellow-400">★★★★★</span>
                             </div>
                         </div>
-                        <div className="absolute top-[90%] left-[90%]">
+                        <div className="h-max w-full flex items-center gap-5 absolute top-[90%] left-[90%]">
                             <button type="button" className="cursor-pointer" title="btn">
                                 <i className="fa-solid fa-chevron-left text-xl" onClick={() => setActiveReview((prev) => prev === 0 ? 2 : prev - 1)}></i>
                             </button>
