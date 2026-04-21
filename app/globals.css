@@ -3,6 +3,7 @@
 :root {
   --background: #FFF8E1;
   --backgroundLight: #fcf9f1;
+  --bgMain: #f3f2f0;
   --primary: #C62828;
   --text: #212121;
   --secondary: #F9A825;
@@ -16,6 +17,7 @@
   --color-primary: var(--primary);
   --color-background: var(--background);
   --color-backgroundLight: var(--backgroundLight);
+  --color-bgMain: var(--bgMain);
   --color-text: var(--text);
   --color-secondary: var(--secondary);
   --color-header: var(--header);
