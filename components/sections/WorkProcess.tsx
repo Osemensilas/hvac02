@@ -3,7 +3,7 @@ const WorkProcess = () => {
         <>
         <section className="h-100 w-full px-10 py-10">
             <div className="h-full w-full flex flex-col justify-between items-center bg-background rounded p-10 gap-5">
-                <h3 className="text-xl font-bold text-primary">Work Process</h3>
+                <h3 className="text-xl font-bold text-primary">WORK PROCESS</h3>
                 <h2 className="text-2xl font-bold text-header">Your Comfort, Our Priority</h2>
                 <div className="h-max w-full flex items-center justify-between gap-5">
                     <div className="h-max w-max flex flex-col justify-center items-center gap-3 bg-backgroundLight rounded p-4">

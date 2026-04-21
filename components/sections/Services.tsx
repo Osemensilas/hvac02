@@ -6,7 +6,7 @@ const Services = () => {
     <>
       <section className="h-170 w-full px-10 flex gap-5 py-10">
         <div className="h-full w-[40%] flex flex-col justify-between items-start gap-3 bg-background rounded p-10">
-          <h3 className="text-xl font-bold text-primary">Our Services</h3>
+          <h3 className="text-xl font-bold text-primary">OUR SERVICES</h3>
           <h2 className="text-2xl font-bold text-header">Expert Heating & Cooling Services you can rely on</h2>
           <p className="text-text">No matter the size of your project, we have the expertise and equipment to deliver exceptional results.</p>
           <div className="h-max w-max">
