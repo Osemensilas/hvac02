@@ -34,7 +34,7 @@ const AboutUs = () => {
                         <Image src="/about.jpg" alt="about image" fill className="object-cover rounded" />
                     </div>
                 </div>
-                <div className="h-full w-full sm:w-[40%] flex flex-col justify-between items-between p-10 bg-background rounded">
+                <div className="h-full w-full sm:w-[40%] flex flex-col justify-between items-between p-4 sm:p-10 bg-background rounded">
                     <h3 className="text-xl font-bold text-primary">About Us</h3>
                     <h2 className="text-2xl font-bold text-header">Creating Comfortable Spaces, One Home at a Time</h2>
                     <p className="text-base text-text">We are a team of experienced HVAC professionals dedicated to providing top-quality services to our customers. With years of experience and a commitment to excellence, we ensure that every project is completed to the highest standards.</p>
