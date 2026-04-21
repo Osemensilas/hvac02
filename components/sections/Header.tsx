@@ -129,7 +129,7 @@ const Header = () => {
         <div onClick={hideNav} className={`
         ${openNav ? "w-1/5 bg-foreground/50" : "hidden w-0"}
         `}></div>
-        <div onClick={seeNav} className={`ham-container block sm:hidden
+        <div onClick={seeNav} className={`ham-container h-15 w-15 block sm:hidden
           ${openNav ? "hidden" : ""}
         `}>
           <div className="hamburger"></div>
