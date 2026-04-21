@@ -3,7 +3,7 @@ import ContactForm from "../ui/ContactForm";
 const ContactUs = () => {
     return ( 
         <>
-        <section className="h-150 w-full px-10 py-10">
+        <section className="h-150 w-full px-4 sm:px-10 py-10">
             <div className="h-full w-full flex bg-background rounded p-5 gap-10">
                 <div className="w-[40%] h-full flex flex-col justify-between gap-5">
                     <h3 className="text-xl font-bold text-primary">CONTACT US</h3>

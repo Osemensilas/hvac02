@@ -4,7 +4,7 @@ import Image from "next/image";
 const AboutUs = () => {
     return ( 
         <>
-        <section className="h-100 w-full px-10">
+        <section className="h-100 w-full px-4 sm:px-10">
             <div className="h-full w-full flex gap-5">
                 <div className="h-full w-[60%] flex gap-3 bg-background rounded p-4">
                     <div className="h-full w-[50%] flex flex-col justify-between gap-3">

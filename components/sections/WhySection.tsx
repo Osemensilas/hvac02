@@ -1,7 +1,7 @@
 const WhySection = () => {
   return(
     <>
-      <section className="py-16 px-6 bg-background">
+      <section className="py-10 px-4 sm:px-10 bg-background">
         <div className="max-w-6xl mx-auto text-center">
           <h3 className="text-xl font-bold mb-4 text-primary">Why Choose Us</h3>
           <h2 className="text-2xl font-bold mb-10">

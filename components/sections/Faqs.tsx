@@ -53,7 +53,7 @@ const FAQs = () => {
 
     return ( 
         <>
-        <section className="frequently px-10 py-10 h-max w-full flex flex-col justify-between items-center gap-5">
+        <section className="frequently px-4 sm:px-10 py-10 h-max w-full flex flex-col justify-between items-center gap-5">
             <h3 className="text-xl font-bold text-primary">FREQUENTLY ASKED QUESTIONS</h3>
             <h2 className="text-2xl font-bold">Got Questions? We Have Answers</h2>
             <div className="frequently-container bg-background rounded p-5 w-full h-max flex flex-col gap-3">

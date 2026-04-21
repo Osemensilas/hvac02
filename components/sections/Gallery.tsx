@@ -22,7 +22,7 @@ const Gallery = () => {
 
     return ( 
         <>
-        <section className="h-170 w-full px-10 py-10">
+        <section className="h-170 w-full px-4 sm:px-10 py-10">
             <div className="h-full w-full flex gap-5 bg-background p-10 rounded">
                 <div className="w-[30%] h-full flex flex-col gap-5">
                     <div className="h-[40%] w-full flex flex-col gap-3 items-start">

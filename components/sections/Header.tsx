@@ -37,7 +37,7 @@ const Header = () => {
       `}>
         <div className="h-full w-full flex flex-col">
           <div className={`h-1/2 w-full items-center justify-between
-            ${openNav ? "hidden" : "flex"}
+            ${openNav ? "hidden" : "sm:flex hidden"}
             `}>
             <div className="h-max w-max flex gap-2">
               <div className="h-max w-max flex items-center gap-3">
