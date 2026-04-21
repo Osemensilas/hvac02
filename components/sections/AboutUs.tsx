@@ -38,7 +38,7 @@ const AboutUs = () => {
                     <h3 className="text-xl font-bold text-primary">About Us</h3>
                     <h2 className="text-2xl font-bold text-header">Creating Comfortable Spaces, One Home at a Time</h2>
                     <p className="text-base text-text">We are a team of experienced HVAC professionals dedicated to providing top-quality services to our customers. With years of experience and a commitment to excellence, we ensure that every project is completed to the highest standards.</p>
-                    <div className="h-max w-full">
+                    <div className="h-max w-max">
                         <ContactBtn />
                     </div>
                 </div>

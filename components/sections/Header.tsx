@@ -41,34 +41,34 @@ const Header = () => {
             `}>
             <div className="h-max w-max flex gap-2">
               <div className="h-max w-max flex items-center gap-3">
-                <i className="fa-solid fa-phone text-primary text-xl"></i>
+                <i className="fa-solid fa-phone text-primary text-base"></i>
                 <p className="text-text text-base">+234 704 7880 486</p>
               </div>
               <div className="h-max w-max flex items-center gap-3">
-                <i className="fa-solid fa-envelope text-primary text-xl"></i>
+                <i className="fa-solid fa-envelope text-primary text-base"></i>
                 <p className="text-text text-base">info@joshlegend.com</p>
               </div>
             </div>
             <div className="h-max w-max">
               <ul className="h-max w-max flex items-center gap-4">
-                <li className="h-max w-max">
+                <li className="h-max w-max bg-background/50 p-2 rounded-md">
                   <a href="#" target="_blank" title="facebook">
-                    <i className="fa-brands fa-facebook text-xl"></i>
+                    <i className="fa-brands fa-facebook text-xl text-primary"></i>
                   </a>
                 </li>
-                <li className="h-max w-max">
+                <li className="h-max w-max bg-background/50 p-2 rounded-md">
                   <a href="#" target="_blank" title="instagram">
-                    <i className="fa-brands fa-instagram text-xl"></i>
+                    <i className="fa-brands fa-instagram text-xl text-primary"></i>
                   </a>
                 </li>
-                <li className="h-max w-max">
+                <li className="h-max w-max bg-background/50 p-2 rounded-md">
                   <a href="#" target="_blank" title="twitter">
-                    <i className="fa-brands fa-twitter text-xl"></i>
+                    <i className="fa-brands fa-twitter text-xl text-primary"></i>
                   </a>
                 </li>
-                <li className="h-max w-max">
+                <li className="h-max w-max bg-background/50 p-2 rounded-md">
                   <a href="#" target="_blank" title="linkedin">
-                    <i className="fa-brands fa-linkedin text-xl"></i>
+                    <i className="fa-brands fa-linkedin text-xl text-primary"></i>
                   </a>
                 </li>
               </ul>
