@@ -4,7 +4,7 @@ import Image from "next/image";
 const Services = () => {
   return(
     <>
-      <section className="h-170 w-full px-4 sm:px-10 flex gap-5 py-10">
+      <section className="h-170 w-full px-4 sm:px-10 flex flex-row sm:flex-col gap-5 py-10">
         <div className="h-full w-[40%] flex flex-col justify-between items-start gap-3 bg-background rounded p-10">
           <h3 className="text-xl font-bold text-primary">OUR SERVICES</h3>
           <h2 className="text-2xl font-bold text-header">Expert Heating & Cooling Services you can rely on</h2>
