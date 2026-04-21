@@ -9,12 +9,12 @@ const Reviews = () => {
 
     return ( 
         <>
-        <section className="h-100 w-full px-10">
+        <section className="h-max sm:h-100 w-full px-10">
             <div className="h-full w-full flex flex-col sm:flex-row bg-background gap-5 px-4 sm:px-10 py-10 rounded">
-                <div className="relative w-[45%] h-full">
+                <div className="relative w-full sm:w-[45%] h-[300px] h-full">
                     <Image src="/happy-client.jpg" alt="Reviews image" fill className="object-cover rounded" />
                 </div>
-                <div className="h-full w-[55%] flex flex-col justify-between items-start gap-3 bg-background rounded">
+                <div className="h-full w-full sm:w-[55%] flex flex-col justify-between items-start gap-3 bg-background rounded">
                     <h3 className="text-xl font-bold text-primary">TESTIMONIALS</h3>
                     <h2 className="text-2xl font-bold text-header">Customer Review - Your Comfort is Our Priority</h2>
                     <div className="relative h-max w-full">
