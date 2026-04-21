@@ -9,7 +9,7 @@ const Reviews = () => {
 
     return ( 
         <>
-        <section className="h-max sm:h-100 w-full px-10">
+        <section className="h-max sm:h-100 w-full px-4 sm:px-10">
             <div className="h-full w-full flex flex-col sm:flex-row bg-background gap-5 px-4 sm:px-10 py-10 rounded">
                 <div className="relative w-full sm:w-[45%] h-[300px] sm:h-full">
                     <Image src="/happy-client.jpg" alt="Reviews image" fill className="object-cover rounded" />
