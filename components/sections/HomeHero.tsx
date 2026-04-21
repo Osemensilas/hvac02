@@ -7,7 +7,7 @@ const HomeHero = () => {
     <>
       <section className="h-max sm:h-[110vh] w-screen px-4 sm:px-10 py-10 flex flex-col sm:flex-row items-start gap-3">
         <div className="h-full w-full sm:w-[45%] flex flex-col gap-3 items-start">
-          <div className="h-max sm:h-[45%] w-full flex flex-col justify-between items-start">
+          <div className="h-max sm:h-[45%] w-full flex flex-col justify-between items-start gap-4 sm:gap-0">
             <p className="text-base text-header font-bold">Perfect temperature always</p>
             <h1 className="text-3xl font-bold text-text">Fast and Reliable AC repair, installation, maintenance and HVAC services in Nigeria</h1>
             <p className="text-text">We provide professional air conditioning services for homes and businesses. Quick response and affordable pricing.</p>
