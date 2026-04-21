@@ -6,7 +6,7 @@ const AboutUs = () => {
         <>
         <section className="h-100 w-full px-4 sm:px-10">
             <div className="h-full w-full flex flex-col sm:flex-row gap-5">
-                <div className="h-full w-[60%] flex gap-3 bg-background rounded p-4">
+                <div className="h-full w-full sm:w-[60%] flex gap-3 bg-background rounded p-4">
                     <div className="h-full w-[50%] flex flex-col justify-between gap-3">
                         <div className="h-max w-full bg-primary rounded p-4">
                             <div className="h-max w-full flex items-center gap-3">
@@ -34,7 +34,7 @@ const AboutUs = () => {
                         <Image src="/about.jpg" alt="about image" fill className="object-cover rounded" />
                     </div>
                 </div>
-                <div className="h-full w-[40%] flex flex-col justify-between items-between p-10 bg-background rounded">
+                <div className="h-full w-full sm:w-[40%] flex flex-col justify-between items-between p-10 bg-background rounded">
                     <h3 className="text-xl font-bold text-primary">About Us</h3>
                     <h2 className="text-2xl font-bold text-header">Creating Comfortable Spaces, One Home at a Time</h2>
                     <p className="text-base text-text">We are a team of experienced HVAC professionals dedicated to providing top-quality services to our customers. With years of experience and a commitment to excellence, we ensure that every project is completed to the highest standards.</p>
