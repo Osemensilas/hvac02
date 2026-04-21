@@ -23,19 +23,19 @@ const Gallery = () => {
     return ( 
         <>
         <section className="h-max sm:h-170 w-full px-4 sm:px-10 py-10">
-            <div className="h-full w-full flexflex-col sm:flex-row gap-5 bg-background p-10 rounded">
+            <div className="h-full w-full flex flex-col sm:flex-row gap-5 bg-background p-10 rounded">
                 <div className="w-full sm:w-[30%] h-full flex flex-col gap-5">
-                    <div className="h-[40%] w-full flex flex-col gap-3 items-start">
+                    <div className="h-max sm:h-[40%] w-full flex flex-col gap-3 items-start">
                         <h3 className="text-xl font-bold text-primary">OUR PROJECTS</h3>
                         <h2 className="text-2xl font-bold text-header">From Concept to Completion - Our HVAC Projects</h2>
                         <ContactBtn />
                     </div>
-                    <div className="relative w-full h-[60%]" onClick={() => viewImage("/gallery5.jpg")}>
+                    <div className="relative w-full h-[300px] sm:h-[60%]" onClick={() => viewImage("/gallery5.jpg")}>
                         <Image src="/gallery5.jpg" alt="gallery1" fill className="object-cover rounded-xl" />
                     </div>
                 </div>
                 <div className="w-full sm:w-[70%] h-full flex gap-2">
-                    <div className="w-[33%] h-full flex flex-col gap-2">
+                    <div className="w-[33%] h-[300px] sm:h-full flex flex-col gap-2">
                         <div className="relative h-[60%] w-full" onClick={() => viewImage("/gallery1.jpg")}>
                             <Image src="/gallery1.jpg" alt="gallery2" fill className="object-cover rounded-xl" />
                         </div>
@@ -43,7 +43,7 @@ const Gallery = () => {
                             <Image src="/gallery2.jpg" alt="gallery3" fill className="object-cover rounded-xl"/>
                         </div>
                     </div>
-                    <div className="w-[33%] h-full flex flex-col gap-2">
+                    <div className="w-[33%] h-[300px] sm:h-full flex flex-col gap-2">
                         <div className="relative h-[40%] w-full" onClick={() => viewImage("/gallery3.jpg")}>
                             <Image src="/gallery3.jpg" alt="gallery4" fill className="object-cover rounded-xl" />
                         </div>
@@ -51,7 +51,7 @@ const Gallery = () => {
                             <Image src="/gallery4.jpg" alt="gallery5" fill className="object-cover rounded-xl"/>
                         </div>
                     </div>
-                    <div className="w-[33%] h-full flex flex-col gap-2">
+                    <div className="w-[33%] h-[300px] sm:h-full flex flex-col gap-2">
                         <div className="relative h-[60%] w-full" onClick={() => viewImage("/gallery6.jpg")}>
                             <Image src="/gallery6.jpg" alt="gallery6" fill className="object-cover rounded-xl" />
                         </div>
