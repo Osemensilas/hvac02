@@ -5,7 +5,7 @@ const AboutUs = () => {
     return ( 
         <>
         <section className="h-max sm:h-100 w-full px-4 sm:px-10">
-            <div className="h-full w-full flex flex-col sm:flex-row gap-5">
+            <div className="h-full w-full flex flex-col-reverse sm:flex-row gap-5">
                 <div className="h-full w-full sm:w-[60%] flex flex-col sm:flex-row gap-3 bg-background rounded p-4">
                     <div className="h-full w-full sm:w-[50%] flex flex-col justify-between gap-3">
                         <div className="h-max w-full bg-primary rounded p-4">
