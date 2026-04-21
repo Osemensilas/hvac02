@@ -17,7 +17,7 @@ const Services = () => {
           </div>
         </div>
         <div className="h-full w-full sm:w-[60%] flex flex-col gap-5">
-          <div className="h-full w-full bg-background rounded p-4 flex items-center gap-3">
+          <a href="#" target="_blank" className="h-full w-full bg-background rounded p-4 flex items-center gap-3">
             <div className="relative h-20 w-20 rounded-xl">
               <Image src="/service1.jpg" alt="services image" fill className="object-cover rounded-3xl" />
             </div>
@@ -28,8 +28,8 @@ const Services = () => {
             <div className="h-max w-max flex items-center justify-end">
               <i className="fa-solid fa-up-right-from-square"></i>
             </div>
-          </div>
-          <div className="h-full w-full bg-background rounded p-4 flex items-center gap-3">
+          </a>
+          <a href="#" target="_blank" className="h-full w-full bg-background rounded p-4 flex items-center gap-3">
             <div className="relative h-20 w-20 rounded-xl">
               <Image src="/service2.jpg" alt="services image" fill className="object-cover rounded-3xl" />
             </div>
@@ -40,8 +40,8 @@ const Services = () => {
             <div className="h-max w-max flex items-center justify-end">
               <i className="fa-solid fa-up-right-from-square"></i>
             </div>
-          </div>
-          <div className="h-full w-full bg-background rounded p-4 flex items-center gap-3">
+          </a>
+          <a href="#" target="_blank" className="h-full w-full bg-background rounded p-4 flex items-center gap-3">
             <div className="relative h-20 w-20 rounded-xl">
               <Image src="/service3.jpg" alt="services image" fill className="object-cover rounded-3xl" />
             </div>
@@ -52,8 +52,8 @@ const Services = () => {
             <div className="h-max w-max flex items-center justify-end">
               <i className="fa-solid fa-up-right-from-square"></i>
             </div>
-          </div>
-          <div className="h-full w-full bg-background rounded p-4 flex items-center gap-3">
+          </a>
+          <a href="#" target="_blank" className="h-full w-full bg-background rounded p-4 flex items-center gap-3">
             <div className="relative h-20 w-20 rounded-xl">
               <Image src="/service4.jpg" alt="services image" fill className="object-cover rounded-3xl" />
             </div>
@@ -64,7 +64,7 @@ const Services = () => {
             <div className="h-max w-max flex items-center justify-end">
               <i className="fa-solid fa-up-right-from-square"></i>
             </div>
-          </div>
+          </a>
         </div>
       </section>
     </>
