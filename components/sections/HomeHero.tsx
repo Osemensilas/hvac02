@@ -7,7 +7,7 @@ const HomeHero = () => {
     <>
       <section className="h-max sm:h-[110vh] w-screen px-4 sm:px-10 py-10 flex flex-col sm:flex-row items-start gap-3">
         <div className="h-full w-full sm:w-[45%] flex flex-col gap-3 items-start">
-          <div className="h-[45%] w-full flex flex-col justify-between items-start">
+          <div className="h-max sm:h-[45%] w-full flex flex-col justify-between items-start">
             <p className="text-base text-header font-bold">Perfect temperature always</p>
             <h1 className="text-3xl font-bold text-text">Fast and Reliable AC repair, installation, maintenance and HVAC services in Nigeria</h1>
             <p className="text-text">We provide professional air conditioning services for homes and businesses. Quick response and affordable pricing.</p>
@@ -16,7 +16,7 @@ const HomeHero = () => {
               <ContactBtn />
             </div>
           </div>
-          <div className="h-[10%] w-max flex items-center gap-3 py-5">
+          <div className="h-max sm:h-[10%] w-max flex items-center gap-3 py-5">
             <div className="h-max w-max border-r border-grey pr-3">
               <h3 className="text-2xl font-bold text-header">4.4k +</h3>
               <p className="text-text text-sm">Projects completed</p>
@@ -30,7 +30,7 @@ const HomeHero = () => {
               <p className="text-text text-sm">Happy Clients</p>
             </div>
           </div>
-          <div className="h-[45%] w-full">
+          <div className="h-[350px] sm:h-[45%] w-full">
             <div className="relative h-full w-full rounded-3xl">
               <Image src="/hero2.jpg" alt="Hero Image" fill className="object-cover rounded-3xl" />
             </div>
