@@ -40,8 +40,8 @@ const HomeHero = () => {
           <div className="relative h-[350px] sm:h-[calc(100vh-100px)] w-full rounded-3xl">
             <Image src="/hero1.jpg" alt="Hero Image" fill className="object-cover rounded-3xl" />
           </div>
-          <div className="w-full h-max flex items-center justify-between gap-3 p-3 bg-background rounded">
-            <div className="h-max w-wax flex">
+          <div className="w-full h-max flex flex-col sm:flex-row items-center justify-between gap-3 p-3 bg-background rounded">
+            <div className="h-max w-max flex">
               <div className="h-max w-6">
                 <div className="relative h-10 w-10">
                   <Image src="/google1.jpg" alt="google image" fill className="object-cover rounded-full" />
