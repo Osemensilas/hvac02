@@ -4,10 +4,10 @@ import Image from "next/image";
 const AboutUs = () => {
     return ( 
         <>
-        <section className="h-100 w-full px-4 sm:px-10">
+        <section className="h-max sm:h-100 w-full px-4 sm:px-10">
             <div className="h-full w-full flex flex-col sm:flex-row gap-5">
-                <div className="h-full w-full sm:w-[60%] flex gap-3 bg-background rounded p-4">
-                    <div className="h-full w-[50%] flex flex-col justify-between gap-3">
+                <div className="h-full w-full sm:w-[60%] flex flex-col sm:flex-row gap-3 bg-background rounded p-4">
+                    <div className="h-full w-full sm:w-[50%] flex flex-col justify-between gap-3">
                         <div className="h-max w-full bg-primary rounded p-4">
                             <div className="h-max w-full flex items-center gap-3">
                                 <i className="fa-regular fa-face-smile text-yellow-500 text-xl"></i>
@@ -30,7 +30,7 @@ const AboutUs = () => {
                             <p className="text-text">We are committed to providing environmentally friendly solutions for our customers.</p>
                         </div>
                     </div>
-                    <div className="relative w-[50%] h-full">
+                    <div className="relative w-full sm:w-[50%] h-full">
                         <Image src="/about.jpg" alt="about image" fill className="object-cover rounded" />
                     </div>
                 </div>
