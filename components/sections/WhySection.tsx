@@ -3,10 +3,10 @@ const WhySection = () => {
     <>
       <section className="py-16 px-6 bg-background">
         <div className="max-w-6xl mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-4">Why Choose Us</h2>
-          <p className="text-gray-600 mb-10">
+          <h3 className="text-xl font-bold mb-4 text-primary">Why Choose Us</h3>
+          <h2 className="text-2xl font-bold mb-10">
             Trusted AC experts serving Lagos Island with fast, reliable, and affordable solutions.
-          </p>
+          </h2>
 
           <div className="grid md:grid-cols-3 gap-8">
             
