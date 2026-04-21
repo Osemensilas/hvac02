@@ -7,6 +7,7 @@ import ContactUs from "@/components/sections/ContactUs";
 import ScheduleBtn from "@/components/ui/ScheduleBtn";
 import AboutUs from "@/components/sections/AboutUs";
 import WorkProcess from "@/components/sections/WorkProcess";
+import FAQs from "@/components/sections/Faqs";
 
 const Page = () => {
   return ( 
@@ -23,6 +24,7 @@ const Page = () => {
     <Reviews />
     <Gallery />
     <WhySection />
+    <FAQs />
     <ContactUs />
     <section className="h-max w-screen bg-header py-16 px-6 flex flex-col items-center gap-6">
       <h3 className="text-2xl text-accent font-bold">Schedule an appointment with us for your HVAC needs today</h3>
