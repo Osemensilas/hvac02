@@ -57,16 +57,19 @@ const Footer = () => {
                         </ul>
                     </div>
                     <div className="h-max w-max">
-                        <h3 className="text-xl font-bold text-header mb-3">Shipping & Delivery</h3>
+                        <h3 className="text-xl font-bold text-header mb-3">Services</h3>
                         <ul className="h-max w-max flex flex-col items-start gap-2">
                             <li className="text-header text-base hover:text-primary transition-colors duration-300">
-                                <Link href={"/shipping-and-delivery"}>Shipping & Delivery</Link>
+                                <Link href={"/ac-repairs"}>AC Repair</Link>
                             </li>
                             <li className="text-header text-base hover:text-primary transition-colors duration-300">
-                                <Link href={"/return-policy"}>Return Policy</Link>
+                                <Link href={"/ac-maintenance"}>AC Maintenance</Link>
                             </li>
                             <li className="text-header text-base hover:text-primary transition-colors duration-300">
-                                <Link href={"/cancellation-policy"}>Cancellation Policy</Link>
+                                <Link href={"/ac-installation"}>AC Installation</Link>
+                            </li>
+                            <li className="text-header text-base hover:text-primary transition-colors duration-300">
+                                <Link href={"/general-contracting"}>General Contracting</Link>
                             </li>
                         </ul>
                     </div>
