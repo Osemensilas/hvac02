@@ -85,11 +85,11 @@ const Footer = () => {
                                 <p className="text-text">+234 704 7880 486</p>
                             </li>
                             <li className="text-text flex items-center gap-2">
-                                <span><i className="fa-solid fa-globe text-text"></i></span>
+                                <span><i className="fa-regular fa-envelope text-text"></i></span>
                                 <p className="text-text">info@joshlegend.com</p>
                             </li>
                             <li className="text-text flex items-center gap-2">
-                                <span><i className="fa fa-map-marker text-text"></i></span>
+                                <span><i className="fa-solid fa-globe text-text"></i></span>
                                 <p className="text-text">joshlegend.com</p>
                             </li>
                         </ul>
