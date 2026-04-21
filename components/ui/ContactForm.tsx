@@ -2,11 +2,11 @@ const ContactForm = () => {
     return ( 
         <>
         <form className="space-y-4 bg-backgroundLight p-5 rounded w-full h-full">
-            <div className="h-max w-full flex gap-4">
+            <div className="h-max w-full flex flex-col sm:flex-row gap-4">
                 <input type="text" placeholder="Full Name" className="w-full h-10 px-3 border border-grey outline-none rounded text-sm" />
                 <input type="email" placeholder="Your Email" className="w-full h-10 px-3 border border-grey outline-none rounded text-sm" />
             </div>
-            <div className="h-max w-full flex gap-4">
+            <div className="h-max w-full flex flex-col sm:flex-row gap-4">
                 <input type="tel" placeholder="Phone Number" className="w-full h-10 px-3 border border-grey outline-none rounded text-sm" />
                 <select className="w-full h-10 px-3 border border-grey outline-none rounded text-sm" title="Select Service">
                     <option>Select Service</option>
