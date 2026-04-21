@@ -4,8 +4,8 @@ import Image from "next/image";
 const Services = () => {
   return(
     <>
-      <section className="h-170 w-full px-4 sm:px-10 flex flex-row sm:flex-col gap-5 py-10">
-        <div className="h-full w-[40%] flex flex-col justify-between items-start gap-3 bg-background rounded p-10">
+      <section className="h-max sm:h-170 w-full px-4 sm:px-10 flex flex-row sm:flex-col gap-5 py-10">
+        <div className="h-full w-full sm:w-[40%] flex flex-col justify-between items-start gap-3 bg-background rounded p-10">
           <h3 className="text-xl font-bold text-primary">OUR SERVICES</h3>
           <h2 className="text-2xl font-bold text-header">Expert Heating & Cooling Services you can rely on</h2>
           <p className="text-text">No matter the size of your project, we have the expertise and equipment to deliver exceptional results.</p>
@@ -16,7 +16,7 @@ const Services = () => {
             <Image src="/services.jpg" alt="services image" fill className="object-cover rounded-3xl" />
           </div>
         </div>
-        <div className="h-full w-[60%] flex flex-col gap-5">
+        <div className="h-full w-full sm:w-[60%] flex flex-col gap-5">
           <div className="h-full w-full bg-background rounded p-4 flex items-center gap-3">
             <div className="relative h-20 w-20 rounded-xl">
               <Image src="/service1.jpg" alt="services image" fill className="object-cover rounded-3xl" />
