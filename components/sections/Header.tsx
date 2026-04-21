@@ -76,8 +76,8 @@ const Header = () => {
               </ul>
             </div>
           </div>
-          <div className={`h-1/2 flex
-          ${openNav ? "relative w-4/5 bg-accent flex-col z-20 justify-star gap-4 p-4" : "w-full items-center justify-between"}
+          <div className={`flex
+          ${openNav ? "relative w-full h-full bg-accent flex-col z-20 justify-star gap-4 p-4" : "w-full items-center justify-between h-1/2"}
           `}>
             <div onClick={gotoHomePage} className="h-max w-max cursor-pointer">
               <h3 className="text-header text-xl sm:text-3xl font-bold cursor-pointer">JOSH<span className="text-primary">LEGEND</span></h3>
