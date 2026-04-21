@@ -1,7 +1,7 @@
 const WorkProcess = () => {
     return ( 
         <>
-        <section className="h-100 w-full px-4 sm:px-10 py-10">
+        <section className="h-max sm:h-100 w-full px-4 sm:px-10 py-10">
             <div className="h-full w-full flex flex-col justify-between items-center bg-background rounded p-10 gap-5">
                 <h3 className="text-xl font-bold text-primary">WORK PROCESS</h3>
                 <h2 className="text-2xl font-bold text-header">Your Comfort, Our Priority</h2>
