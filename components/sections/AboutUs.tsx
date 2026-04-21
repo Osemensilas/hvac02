@@ -30,7 +30,7 @@ const AboutUs = () => {
                             <p className="text-text">We are committed to providing environmentally friendly solutions for our customers.</p>
                         </div>
                     </div>
-                    <div className="relative w-full sm:w-[50%] h-full">
+                    <div className="relative w-full sm:w-[50%] h-[300px] sm:h-full">
                         <Image src="/about.jpg" alt="about image" fill className="object-cover rounded" />
                     </div>
                 </div>
