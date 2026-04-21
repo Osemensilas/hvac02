@@ -11,7 +11,7 @@ const HomeHero = () => {
             <p className="text-base text-header font-bold">Perfect temperature always</p>
             <h1 className="text-3xl font-bold text-text">Fast and Reliable AC repair, installation, maintenance and HVAC services in Nigeria</h1>
             <p className="text-text">We provide professional air conditioning services for homes and businesses. Quick response and affordable pricing.</p>
-            <div className="w-full h-max flex items-center gap-4">
+            <div className="w-full h-max flex items-center gap-4 mt-5">
               <ScheduleBtn />
               <ContactBtn />
             </div>
