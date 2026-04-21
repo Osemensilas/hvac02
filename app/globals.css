@@ -71,22 +71,10 @@ html,body{
 
 /*Frequently begins*/
 
-#frequently{
+.frequently{
   height: max-content;
   width: 100%;
-  padding: 50px 80px;
   background: var(--accent);
-}
-
-.frequently-header{
-  height: max-content;
-  width: 100%;
-  padding: 0 0 50px 0;
-}
-
-.frequently-header h2{
-  font-size: 25px;
-  font-weight: 700;
 }
 
 .frequently-container{
@@ -98,9 +86,6 @@ html,body{
   height: max-content;
   width: 100%;
   display: flex;
-  background: var(--lighterGrey);
-  padding: 20px;
-  margin-bottom: 20px;
 }
 
 @media only screen and (max-width: 767px){
@@ -118,21 +103,15 @@ html,body{
 
 .frequent-question-left{
   height: max-content;
-  width: 70%;
+  width: 80%;
 }
 
 .frequent-question-right{
   height: 100%;
-  width: 30%;
+  width: 20%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-}
-
-.frequent-question-left h2{
-  font-size: 16px;
-  font-weight: 600;
-  margin-bottom: 10px;
 }
 
 .frequequent-question-left-content{
@@ -144,11 +123,6 @@ html,body{
 .frequequent-question-left-content.active{
   transition: 0.3s ease-in-out;
   display: block;
-}
-
-.frequequent-question-left-content p{
-  font-size: 17px;
-  font-weight: 400;
 }
 
 .frequent-drop-down-container{
