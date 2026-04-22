@@ -6,7 +6,7 @@ const HomeHero = () => {
   return (
     <>
       <section className="h-max sm:h-[1000px] w-screen px-4 sm:px-10 py-10 flex flex-col sm:flex-row items-start gap-3">
-        <div className="h-full w-full sm:w-[45%] flex flex-col gap-3 items-start">
+        <div className="h-max sm:h-full w-full sm:w-[45%] flex flex-col gap-3 items-start">
           <div className="h-max sm:h-[45%] w-full flex flex-col justify-between items-start gap-4 sm:gap-0">
             <p className="text-base text-header font-bold">Perfect temperature always</p>
             <h1 className="text-3xl font-bold text-text">Fast and Reliable AC repair, installation, maintenance and HVAC services in Nigeria</h1>
@@ -31,7 +31,7 @@ const HomeHero = () => {
             </div>
           </div>
           <div className="h-[350px] sm:h-[45%] w-full">
-            <div className="relative h-[450px] w-full rounded-3xl">
+            <div className="relative h-[350px] sm:h-[450px] w-full rounded-3xl">
               <Image src="/hero2.jpg" alt="Hero Image" fill className="object-cover rounded-3xl" />
             </div>
           </div>
