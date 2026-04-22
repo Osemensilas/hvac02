@@ -5,7 +5,7 @@ import ContactBtn from '../ui/ContactBtn';
 const HomeHero = () => {
   return (
     <>
-      <section className="h-max sm:h-[1000px] w-screen px-4 sm:px-10 py-10 flex flex-col sm:flex-row items-start gap-3">
+      <section className="h-max sm:h-250 mb-10 w-screen px-4 sm:px-10 py-10 flex flex-col sm:flex-row items-start gap-3">
         <div className="h-max sm:h-full w-full sm:w-[45%] flex flex-col gap-3 items-start">
           <div className="h-max sm:h-[45%] w-full flex flex-col justify-between items-start gap-4 sm:gap-0">
             <p className="text-base text-header font-bold">Perfect temperature always</p>
@@ -30,14 +30,14 @@ const HomeHero = () => {
               <p className="text-text text-sm">Happy Clients</p>
             </div>
           </div>
-          <div className="h-[350px] sm:h-[45%] w-full">
-            <div className="relative h-[350px] sm:h-[450px] w-full rounded-3xl">
+          <div className="h-87.5 sm:h-[45%] w-full">
+            <div className="relative h-87.5 sm:h-112.5 w-full rounded-3xl">
               <Image src="/hero2.jpg" alt="Hero Image" fill className="object-cover rounded-3xl" />
             </div>
           </div>
         </div>
         <div className="h-max sm:h-full w-full sm:w-[55%] justify-between flex flex-col gap-3 items-start">
-          <div className="relative h-[350px] sm:h-[700px] w-full rounded-3xl hidden sm:block">
+          <div className="relative h-87.5 sm:h-200 w-full rounded-3xl hidden sm:block">
             <Image src="/hero1.jpg" alt="Hero Image" fill className="object-cover rounded-3xl" />
           </div>
           <div className="w-full h-max flex flex-col sm:flex-row items-center justify-between gap-3 p-3 bg-background rounded">
