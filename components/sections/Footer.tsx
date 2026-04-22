@@ -51,9 +51,6 @@ const Footer = () => {
                             <li className="text-header text-base hover:text-primary transition-colors duration-300">
                                 <Link href={"/pharmacy"}>Contact Us</Link>
                             </li>
-                            <li className="text-header text-base hover:text-primary transition-colors duration-300">
-                                <Link href={"/pharmacy"}>Blogs</Link>
-                            </li>
                         </ul>
                     </div>
                     <div className="h-max w-max">
