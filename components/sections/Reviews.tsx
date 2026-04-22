@@ -11,7 +11,7 @@ const Reviews = () => {
         <>
         <section className="h-max sm:h-100 w-full px-4 sm:px-10">
             <div className="h-full w-full flex flex-col sm:flex-row bg-background gap-5 px-4 sm:px-10 py-10 rounded">
-                <div className="relative w-full sm:w-[45%] h-[300px] sm:h-full">
+                <div className="relative w-full sm:w-[45%] h-75 sm:h-full">
                     <Image src="/happy-client.jpg" alt="Reviews image" fill className="object-cover rounded" />
                 </div>
                 <div className="h-full w-full sm:w-[55%] flex flex-col justify-between items-start gap-3 bg-background rounded">
@@ -51,7 +51,7 @@ const Reviews = () => {
                                 <span className="text-yellow-400">★★★★★</span>
                             </div>
                         </div>
-                        <div className="h-max w-full flex items-center gap-5 absolute top-[90%] left-[90%]">
+                        <div className="h-max w-full flex items-center gap-5 absolute top-[90%] left-[80%] sm:left-[90%]">
                             <button type="button" className="cursor-pointer" title="btn">
                                 <i className="fa-solid fa-chevron-left text-xl" onClick={() => setActiveReview((prev) => prev === 0 ? 2 : prev - 1)}></i>
                             </button>
