@@ -23,7 +23,7 @@ const WhySection = () => {
             </div>
 
             <div>
-              <i className="fa-solid fa-money text-3xl mb-3"></i>
+              <i className="fa-solid fa-tags text-3xl mb-3"></i>
               <h3 className="font-semibold text-lg">Affordable Pricing</h3>
               <p className="text-gray-600 text-sm">No hidden costs.</p>
             </div>
