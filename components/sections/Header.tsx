@@ -29,6 +29,10 @@ const Header = () => {
     setOpenNav(false);
     router.push("/");
   }
+
+  const linkClicked = () => {
+    setOpenNav(false);
+  }
   
   return(
     <>
@@ -86,7 +90,7 @@ const Header = () => {
             ${openNav ? "flex-col justify-start items-start" : "hidden sm:flex items-center"}
             `}>
               <li className="h-max w-max flex flex-col gap-1">
-                <Link href={"/"} className={`text-base
+                <Link href={"/"} onClick={linkClicked} className={`text-base
                     ${pathName === "/" ? "text-primary" : "text-header"}
                     `}>Home</Link>
                 <span className={`h-0.5 w-full
@@ -94,7 +98,7 @@ const Header = () => {
                     `}></span>
               </li>
               <li className="h-max w-max">
-                <Link href="/services" className={`flex flex-col gap-1
+                <Link href="/services" onClick={linkClicked} className={`flex flex-col gap-1
                 ${pathName === "/services" ? "text-primary" : ""}
                 `}>Services
                 <span className={`w-full h-0.5
@@ -103,7 +107,7 @@ const Header = () => {
                 </Link>
               </li>
               <li className="h-max w-max">
-                <Link href="/about-us" className={`flex flex-col gap-1
+                <Link href="/about-us" onClick={linkClicked} className={`flex flex-col gap-1
                 ${pathName === "/about-us" ? "text-primary" : ""}
                 `}>About Us
                 <span className={`w-full h-0.5
@@ -112,7 +116,7 @@ const Header = () => {
                 </Link>
               </li>
               <li className="h-max w-max">
-                <Link href="/contact-us" className={`flex flex-col gap-1
+                <Link href="/contact-us" onClick={linkClicked} className={`flex flex-col gap-1
                 ${pathName === "/contact-us" ? "text-primary" : ""}
                 `}>Contact Us
                 <span className={`w-full h-0.5

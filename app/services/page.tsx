@@ -76,7 +76,7 @@ export default function ServicesPage() {
                 <div className="flex-1">
                   <h3 className="text-xl font-black text-gray-900 mb-2">{service.title}</h3>
                   <p className="text-gray-600 leading-relaxed mb-5">{service.desc}</p>
-                  <ul className="grid grid-cols-2 gap-2">
+                  <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                     {service.features.map((f) => (
                       <li key={f} className="flex items-center gap-2 text-sm text-text">
                         <span className="w-1.5 h-1.5 bg-primary rounded-full" />
