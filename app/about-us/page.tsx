@@ -122,7 +122,7 @@ export default function AboutPage() {
 
           <div className="grid md:grid-cols-3 gap-8">
             {[
-              { icon: <i class="fa-solid fa-bolt"></i>, title: "Fast Response", desc: "Quick service across Lagos Island." },
+              { icon: <i className="fa-solid fa-bolt"></i>, title: "Fast Response", desc: "Quick service across Lagos Island." },
               { icon: <i className="fa fa-wrench"></i>, title: "Experienced Technicians", desc: "Skilled AC professionals." },
               { icon: <i className="fa-solid fa-tags"></i>, title: "Affordable Pricing", desc: "No hidden costs." },
               { icon: <i className="fa fa-map-marker"></i>, title: "Lagos Island Based", desc: "We're close to you." },

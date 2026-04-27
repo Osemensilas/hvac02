@@ -48,7 +48,7 @@ export default function ServicesPage() {
       <section className="w-screen h-max py-20 px-6">
         <div className="max-w-7xl mx-auto text-center flex flex-col items-center justify-center">
           <p className="text-primary font-bold uppercase tracking-widest text-sm mb-3">Our Services</p>
-          <h1 className="text-4xl md:text-5xl font-black text-gray-900 leading-tight mb-6">
+          <h1 className="text-3xl md:text-5xl font-black text-gray-900 leading-tight mb-6">
             Expert Heating & Cooling Services{" "}
             <span className="text-primary">You Can Rely On</span>
           </h1>
