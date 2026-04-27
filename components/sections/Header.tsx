@@ -103,20 +103,20 @@ const Header = () => {
                 </Link>
               </li>
               <li className="h-max w-max">
-                <Link href="/about-me" className={`flex flex-col gap-1
-                ${pathName === "/about-me" ? "text-primary" : ""}
-                `}>About Me
+                <Link href="/about-us" className={`flex flex-col gap-1
+                ${pathName === "/about-us" ? "text-primary" : ""}
+                `}>About Us
                 <span className={`w-full h-0.5
-                ${pathName === "/about-me" ? "bg-primary" : ""}
+                ${pathName === "/about-us" ? "bg-primary" : ""}
                 `}></span>
                 </Link>
               </li>
               <li className="h-max w-max">
-                <Link href="/contact-me" className={`flex flex-col gap-1
-                ${pathName === "/contact-me" ? "text-primary" : ""}
-                `}>Contact Me
+                <Link href="/contact-us" className={`flex flex-col gap-1
+                ${pathName === "/contact-us" ? "text-primary" : ""}
+                `}>Contact Us
                 <span className={`w-full h-0.5
-                ${pathName === "/contact-me" ? "text-primary" : ""}
+                ${pathName === "/contact-us" ? "text-primary" : ""}
                 `}></span>
                 </Link>
               </li>
