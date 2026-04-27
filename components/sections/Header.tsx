@@ -120,7 +120,7 @@ const Header = () => {
                 ${pathName === "/contact-us" ? "text-primary" : ""}
                 `}>Contact Us
                 <span className={`w-full h-0.5
-                ${pathName === "/contact-us" ? "text-primary" : ""}
+                ${pathName === "/contact-us" ? "bg-primary" : ""}
                 `}></span>
                 </Link>
               </li>
